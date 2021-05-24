@@ -1,0 +1,93 @@
+.patients{
+    background-color: #e1f1f3;
+    display: flex;
+}
+.patientsTable{
+    margin-left: 240px;
+}
+.patientsTable h4{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 1300px;
+}
+.patientsTableDetails{
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 40px;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+.patientsTableDetails p{
+    padding: 20px;
+    font-weight: 900;
+    background: linear-gradient(#19D3AE, #0FCFEC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#dots{
+    width:146px;
+      margin:auto;
+    margin-top: 100px;
+  }
+  
+  .dot{
+    background-color: #63488f;
+    width: 20px;
+    height: 30px;
+    border-radius: 50%;
+    animation-name: load;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  .dot5{
+    background-color: #63488f;
+    width: 20px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  #dot1, #dot2, #dot3, #dot4{
+    display: inline-block;
+  }
+  
+  #dot2, #dot3{
+    width: 30px;
+    height: 40px
+  }
+  
+  #dot1, #dot4{
+    position: relative;
+    top: 20px
+  }
+  
+  #dot1{
+    animation-delay:0.1s;
+  }
+  
+  #dot2{
+    animation-delay:0.2s;
+  }
+  
+  #dot3{
+    animation-delay:0.3s;
+  }
+  
+  #dot4{
+    animation-delay:0.4s;
+  }
+  
+  #dot5{
+    width: 80px;
+    height: 70px;
+    margin-left: 15px;
+  }
+  
+  @keyframes load {
+      0% {visibility: visible;}
+      25% {visibility: visible;}
+      75% {visibility: hidden;}
+      100% {visibility: hidden;}
+  }
